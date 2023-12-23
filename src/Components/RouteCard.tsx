@@ -5,10 +5,8 @@ import topArrow from "../assets/images/arrow-up.svg";
 
 function RouteCard() {
     return (<div className="bg-white rounded-xl text-brown-light shadow-xl">
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-col sm:flex-row">
             <div className="flex flex-col px-5 py-6">
-
-
                 <div className="flex justify-between">
                     <div className="grid grid-cols-trip relative">
                 <span>

@@ -9,7 +9,7 @@ function App() {
 
             <div className="absolute inset-0 bg-brown-52"></div>
             <div className="container mx-auto">
-                <div className="absolute text-white bottom-20 flex justify-center flex-col w-full">
+                <div className="absolute text-white bottom-20 flex justify-center flex-col">
                     <div className="font-bold text-4xl">
                         Travel that moves you
                     </div>
