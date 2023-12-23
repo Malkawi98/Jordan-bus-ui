@@ -15,11 +15,11 @@ export default {
         'red': '#A90000',
       },
       content: {
-        'dots': "url('./src/assets/images/dots.svg')",
-        'vertical-line': "url('./src/assets/images/vertical-line.svg')",
+        'dots': "url('/src/assets/images/dots.svg')",
+        'vertical-line': "url('/src/assets/images/vertical-line.svg')",
       },
       backgroundImage: {
-        'bus': "url('./src/assets/images/bus.jpg')",
+        'bus': "url('/src/assets/images/bus.jpg')",
       },
       backgroundColor: {
         'brown-52': 'rgba(121, 81, 66, 0.52)',
