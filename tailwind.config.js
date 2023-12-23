@@ -33,6 +33,9 @@ export default {
       gridTemplateColumns: {
         'trip': '100px 1fr',
       },
+      fontFamily: {
+        'sans': ['Geist', 'sans-serif'],
+      },
     },
   },
   plugins: [],

@@ -4,7 +4,7 @@ import topSpeed from "../assets/images/top-speed.svg";
 import topArrow from "../assets/images/arrow-up.svg";
 
 function RouteCard() {
-    return (<div className="bg-white rounded-xl text-brown-light">
+    return (<div className="bg-white rounded-xl text-brown-light shadow-xl">
         <div className="flex justify-between">
             <div className="flex flex-col px-5 py-6">
 
@@ -44,7 +44,7 @@ function RouteCard() {
                     <div className="grid grid-cols-trip">
                 <span>
                 </span>
-                        <div className="relative right-[5%] top-[60%] flex items-center">
+                        <div className="relative right-[6%] top-[60%] flex items-center">
                             <img className="bg-brown-52 rounded-full p-1 mr-2" src={arrow} alt=""/>
                             <p className="text-[9px]">See All Transfers</p>
                         </div>
@@ -55,7 +55,7 @@ function RouteCard() {
 
             <div className="flex gap-x-3">
                 <div className="py-4 px-2">
-                    <div className='text-green flex'>
+                    <div className='text-green flex gap-x-2'>
                         <img src={topSpeed} alt="top speed"/>
                         <div>
                             Fastest
